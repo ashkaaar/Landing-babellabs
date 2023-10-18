@@ -15,13 +15,18 @@ export type ProjectProps = {
   id: number;
   name: string;
   description: string;
-  technologies: IconType[];
-  techNames: string[];
-  techLinks: string[];
-  github: string;
-  demo: string;
+//   technologies: IconType[];
+//   techNames: string[];
+//   techLinks: string[];
+//   github: string;
+//   demo: string;
   image: string;
   available: boolean;
+  technologies?: string[]; // Make it optional
+  techNames?: string[]; // Make it optional
+  techLinks?: string[]; // Make it optional
+  github?: string; // Make it optional
+  demo?: string; // Make it optional
 };
 
 export const projects = [
